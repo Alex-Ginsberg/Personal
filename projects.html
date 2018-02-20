@@ -1,0 +1,98 @@
+<html>
+        <head>
+            <title>Alex Ginsberg</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href='style.css' rel='stylesheet' type='text/css'>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script> 
+                $(document).ready(function(){
+                    $("#saffire").click(function(){
+                        $("#saffire-description").slideToggle("slow");
+                    });
+
+                    $("#drinkstagram").click(function(){
+                        $("#drinkstagram-description").slideToggle("slow");
+                    })
+                });
+                </script>
+            </head>
+        <body>
+            <h2 class="name">Alex Ginsberg</h3>
+            <h5 class="subtitle">Software Engineer</h5>
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="experience.html">Experience</a>
+                <a href="education.html">Education</a>
+                <a class="active" href="projects.html">Projects/Presentations</a>
+            </div>
+            <div>
+                
+            </div>
+            <div class="vid-container">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/n_TaFpcfzW0" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                <div class="vid-description">
+                    <h3>Tech Talk: Operating Systems & Processor Scheduling</h3>
+                    <h5>Fullstack Academy of Code</h5>
+                    <p class="education-description">
+                        A presentation discussing different processor scheduling algorithms used by operating systems.
+                        By analyzing FIFO, SJF, Round-Robin, and MFQ algorithms, we can see the purpose of each algorithm
+                        and understand why certain processes use different algorithms.
+                    </p>
+                    <p class="education-description">
+                        Beginning with an introduction to operating systems, the presentation discusses the purpose of 
+                        the operating systems and how processor scheduling fits into the picture. It then looks at several
+                        simple scheduling algorithms, before showing how those simple algorithms can be used to develop
+                        the complex algorithms that are used by modern-day operating systems.
+                    </p>
+                </div> 
+            </div>
+            <div class="vid-container">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/FOKq4sL-GlE" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                <div class="vid-description">
+                    <h3>Saffire</h3>
+                    <h5>Fullstack Academy of Code</h5>
+                    <p class="education-description">
+                        Saffire is a progressive web app that allows users to plan trips and stay in sync with each other.
+                        After creating a profile, users can add other users as friends and create travel groups.
+                        These groups can then plan their trips through a sharing and voting system, that uses Google Places
+                        to help user find activities to do. Once the activities are set, Saffire will form an itinerary for the group.
+                        Through geolocation tracking, offline functionality, and a social media experience, Saffire keeps friends in sync
+                        on the go.
+                    </p>
+                    <p class="education-description">
+                        <a href="https://github.com/Alex-Ginsberg/Travel-App">Github Repo</a>
+                        <a href="deets-76612.firebaseapp.com">Visit the Site</a>
+                        <a href="https://www.youtube.com/watch?v=FOKq4sL-GlE">Video Presentation</a>
+                    </p>
+                </div> 
+            </div>
+            <div class="vid-container">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/AX9vCbN2PmI" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                <div class="vid-description">
+                    <h3>Drinkstagram</h3>
+                    <h5>Fullstack Academy of Code</h5>
+                    <p class="education-description">
+                        Drinkstagram is a mobile, social media app that creates a database of bar/restaurant ratings by using users' social media posts to create average ratings for the location the post was made.
+                        Users can make social media posts based around drinks that they ordered at bars, allowing them to 
+                        provide a rating and location for the drink. That information is then used to create an average 
+                        rating for each bar, as well as a page for each bar that shows the most recently made posts.
+                    </p>
+                    <p class="education-description">
+                        <a href="https://github.com/Alex-Ginsberg/Drinkstagram">Github Repo</a>
+                        <a href="https://www.youtube.com/watch?v=AX9vCbN2PmI">Video Presentation</a>
+                    </p>
+                </div> 
+            </div>
+        </body>
+    </html>
